@@ -1,7 +1,7 @@
 {
   "name": "apiaistarterkit",
   "version": "1.0.0",
-  "description": "tutorial",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -16,4 +16,5 @@
   "repository": {},
   "license": "ISC",
   "bugs": {},
+  "homepage": ""
 }
