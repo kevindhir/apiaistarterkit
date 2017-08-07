@@ -11,11 +11,6 @@
     "url": "git+https://github.com/kevindhir/apiaistarterkit.git"
   },
   "author": "Kevin Dhir",
-  "dependencies": {
-    "body-parser": "^1.15.0",
-    "express": "^4.13.4",
-    "apiai": "^4.0.2",
-  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kevindhir/apiaistarterkit/issues"
