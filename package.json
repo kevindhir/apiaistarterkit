@@ -1,0 +1,19 @@
+{
+  "name": "apiaistarterkit",
+  "version": "1.0.0",
+  "description": "A starter kit to build chat bots using API.AI, built for a tutorial video.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevindhir/apiaistarterkit.git"
+  },
+  "author": "Kevin Dhir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevindhir/apiaistarterkit/issues"
+  },
+  "homepage": "https://github.com/kevindhir/apiaistarterkit#readme"
+}
