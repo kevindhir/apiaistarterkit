@@ -16,5 +16,4 @@ app.use(bodyParser.json())
 //This will handle calls coming in from API.AI
 app.post('/apiai', interpretAction)
 
-app.listen(5000, () => {
-	console.log('Server started successfully')})
+console.log('Server started successfully'
