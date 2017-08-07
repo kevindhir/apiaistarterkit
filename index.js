@@ -1,6 +1,6 @@
-import express from 'express'
-import bodyParser from 'body-parser'
-import apiai from 'apiai'
+const express = require('express')
+const bodyParser = require('body-parser')
+const apiai = require('apiai')
 
 //This is available in your agent's console 
 const APIAI_ACCESS_TOKEN = 'your_access_token'
