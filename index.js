@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json())
 
 //This will handle calls coming in from API.AI
-app.post('/apiai', () => {
-	console.log('Request on apiai')
+app.post('/apiai', function(){
+	console.log('Server started')
 })
 
