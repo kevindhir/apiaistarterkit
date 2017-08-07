@@ -9,11 +9,13 @@ const apiAiClient = apiai(APIAI_ACCESS_TOKEN)
 
 app.use(bodyParser.urlencoded({
     extended: true
-}));
+}))
 
 app.use(bodyParser.json())
 
 //This will handle calls coming in from API.AI
-app.post('/apiai', interpretAction)
+app.post('/apiai', () => {
+	console.log('Request on apiai')
+})
 
 console.log('Server started successfully'
