@@ -4,7 +4,7 @@
   "description": "A starter kit to build chat bots using API.AI, built for a tutorial video.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
