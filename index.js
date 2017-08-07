@@ -18,4 +18,3 @@ app.post('/apiai', () => {
 	console.log('Request on apiai')
 })
 
-console.log('Server started successfully'
