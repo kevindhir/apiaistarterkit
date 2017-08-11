@@ -19,7 +19,25 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json())
 
 //This will handle calls coming in from API.AI
-app.post('/apiai', function(){
-	console.log('Server started')
-})
+app.post('/apiai', determineAction)
 
+function determineAction(req, res){
+	const action = req.body.result.action
+	switch(action){
+		case 'place_order':
+			console.log("Case is place_order")
+			placeOrder(req, res)
+			break
+		default: 
+			console.log("Case is default")
+			res.statusCode = 200
+			res.statusMessage = "Default case"
+			res.end("You did it")
+	}
+}
+
+function placeOrder(req, res){
+	res.statusCode = 200
+	res.statusMessage = "place_order case"
+	res.end("You did it")
+}
